@@ -3,25 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BootCamp DevJr - Enquete melhores jogos</title>
+
+    <style>
+        body{
+            background-color: #CCCCCC;
+        }
+        .container {
+            background: linear-gradient(to bottom, #1F0C22, #631F6F);
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+        .header {
+            margin-bottom: 20px;
+        }
+        .container2 {
+            background: linear-gradient(to bottom, #631F6F, #1F0C22);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-top: 15px;
+            
+        }
+        .coluna {
+            background: linear-gradient(to bottom, #0072ff, #00c6ff) padding-box, linear-gradient(to bottom, #2637DA , #342988) border-box;
+            border: 6px solid transparent;
+            flex: 1;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+
 </head>
 <body>
-    <div>
-        <div>
-            PRIMEIRA LINHA
-        </div>
-        <div>
-            SEGUNDA LINHA
-            <div>
-                PRIMEIRA COLUNA
-            </div>
-            <div>
-                SEGUNDA COLUNA
-            </div>
-            <div>
-                TERCEIRA COLUNA
-            </div>
-        </div>
+  <div class="container">
+    
+    <div class="header">
+      PRIMEIRA LINHA
     </div>
+
+    <div class="container2">
+      SEGUNDA LINHA (container2)
+      
+      <div class="flex-container">
+        <div class="coluna">PRIMEIRA COLUNA</div>
+        <div class="coluna">SEGUNDA COLUNA</div>
+        <div class="coluna">TERCEIRA COLUNA</div>
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>
