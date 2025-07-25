@@ -37,15 +37,14 @@
         .flex-container {
             display: flex;
             justify-content: space-between;
-            gap: 15px;
+            gap: 40px;
             margin-top: 15px;
             
         }
         .coluna {
-            background: linear-gradient(to bottom, #0072ff, #00c6ff) padding-box, linear-gradient(to bottom, #2637DA , #342988) border-box;
-            border: 6px solid transparent;
+            background: linear-gradient(to bottom, #0056be, #00c6ff) padding-box, linear-gradient(to bottom, #2637DA , #342988) border-box;
+            border: 10px solid transparent;
             flex: 1;
-            padding: 15px;
             border-radius: 10px;
             color: white;
             text-align: center;
@@ -57,8 +56,15 @@
           font-size: 18px;
           display: inline-block;
           cursor: pointer;
-          margin-top: 10px;
+          margin: 10px 0;
           color: white;
+        }
+        .button:hover{
+          background-color: #631F6F;
+        }
+        .imagem{
+          width: auto;
+          height: 150px;
         }
     </style>
 
@@ -83,15 +89,18 @@
       
       <div class="flex-container">
         <div class="coluna">
-          Esportes
+          <p>Esportes</p>
+          <img class="imagem" src="sports_soccer_white.svg" alt="Imagem esporte">
           <button class="button">Votar</button>
         </div>
         <div class="coluna">
-          Simulação
+          <p>Simulação</p>
+          <img class="imagem" src="local_airport_white.svg" alt="Imagem aviao">
           <button class="button">Votar</button>
         </div>
         <div class="coluna">
-          Estratégia
+          <p>Estratégia</p>
+          <img class="imagem" src="psychology_white.svg" alt="Imagem pensante">
           <button class="button">Votar</button>
         </div>
       </div>
