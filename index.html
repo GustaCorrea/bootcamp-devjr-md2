@@ -32,6 +32,7 @@
             padding: 20px;
             border-radius: 15px;
             margin-top: 20px;
+            font-size: 25px;
         }
         .flex-container {
             display: flex;
@@ -48,6 +49,16 @@
             border-radius: 10px;
             color: white;
             text-align: center;
+        }
+        .button{
+          background-color:#1D0C20;
+          border-radius: 5px;
+          padding: 10px 30px;
+          font-size: 18px;
+          display: inline-block;
+          cursor: pointer;
+          margin-top: 10px;
+          color: white;
         }
     </style>
 
@@ -68,12 +79,21 @@
     </div>
 
     <div class="container2">
-      SEGUNDA LINHA (container2)
+      Digite os seus dados e escolha entre os três finalistas!
       
       <div class="flex-container">
-        <div class="coluna">PRIMEIRA COLUNA</div>
-        <div class="coluna">SEGUNDA COLUNA</div>
-        <div class="coluna">TERCEIRA COLUNA</div>
+        <div class="coluna">
+          Esportes
+          <button class="button">Votar</button>
+        </div>
+        <div class="coluna">
+          Simulação
+          <button class="button">Votar</button>
+        </div>
+        <div class="coluna">
+          Estratégia
+          <button class="button">Votar</button>
+        </div>
       </div>
     </div>
 
