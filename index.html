@@ -83,6 +83,24 @@
     .button:hover {
       background-color: #631F6F;
     }
+
+    @media screen and (max-width: 620px) {
+    html{
+      font-size: 14px;
+    }
+    .flex-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .input{
+      width: 90%;
+    }
+    .coluna {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+}
   </style>
 </head>
 <body>
@@ -92,7 +110,7 @@
         GAMES LOVERS ENQUETE
       </div>
       <div>
-        <p style="margin-top: 1.5625rem; padding: 0.3125rem;">Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por videogames. Participe da nossa enquete e escolha entre os três finalistas!</p>
+        <p style="margin-top: 1.5rem; padding: 0.3rem;">Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por videogames. Participe da nossa enquete e escolha entre os três finalistas!</p>
         <p>A sua escolha é muito importante para nós.</p>
         <p style="margin-bottom: 2.5rem;">No final da enquete iremos sortear um brinde entre os participantes.</p>
       </div>
